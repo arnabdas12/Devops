@@ -9,6 +9,7 @@ COPY ./requirements.txt ./requirements.txt
 RUN pip install -r /requirements.txt
 
 
-RUN mkdir /demo1
-WORKDIR /demo1
-COPY ./demo1 /demo1
+RUN mkdir /vol1
+WORKDIR /vol1
+COPY ./vol1 /vol1
+
